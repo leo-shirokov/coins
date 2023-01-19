@@ -9,8 +9,7 @@ function main() {
 
     document.querySelectorAll('.flip-wrapper').forEach((wrapper) => {
         wrapper.addEventListener('click', () => {
-            const coin = wrapper.querySelector('.flip');
-            coin.classList.toggle('rotated');
+            wrapper.querySelector('.flip').classList.toggle('rotated');
         });
     });
 }

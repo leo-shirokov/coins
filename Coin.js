@@ -14,7 +14,7 @@ function Coin(coin) {
         <div class="coin-description">
             <div class="coin-description-header">
                 <p>${coin.header}</p>
-                <p>${coin.king}</p>
+                <p id="${coin.id}">${coin.king}</p>
             </div>
             <p>${coin.description}</p>
         </div>
