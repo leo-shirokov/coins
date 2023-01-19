@@ -228,6 +228,12 @@ body {
     padding: 15px 10px 15px 10px;
 }
 
+.coin-description p {
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: justify;
+}
+
 .coin-description::before {
     content: "";
     background-color: #202e4f;
@@ -238,15 +244,20 @@ body {
     align-items: center;
 }
 
-.coin-description p {
-    font-size: 18px;
-    line-height: 1.2;
-    text-align: justify;
+.coin-description-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
-.coin-description span {
+.coin-description-header p:nth-child(1) {
     font-weight: 700;
-    line-height: 1.9;
+    line-height: 2.2;
+}
+
+.coin-description-header p:nth-child(2) {
+    color: rgb(174, 54, 54);
+    font-weight: 700;
 }
 
 @media (max-width: 820px) {
