@@ -12,11 +12,22 @@ function Coin(coin) {
             </div>
         </div>
         <div class="coin-description">
-            <div class="coin-description-header">
-                <p id="${coin.id}">${coin.header}</p>
-                <p>${coin.king}</p>
+            <div class="card">
+                <div class="card_front">
+                    <div class="coin-description-header">
+                        <p id="${coin.id}">${coin.header}</p>
+                        <p>${coin.king}</p>
+                    </div>
+                    <div class="coin-description-container">
+                        <p>${coin.description}</p>
+                    </div>
+                </div>
+                <div class="card_back">
+                    <div class="coin-info-container">
+                        <p>${coin.info}</p>
+                    </div>
+                </div>
             </div>
-            <p>${coin.description}</p>
         </div>
     </section>
 `;

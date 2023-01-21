@@ -12,6 +12,12 @@ function main() {
             wrapper.querySelector('.flip').classList.toggle('rotated');
         });
     });
+
+    document.querySelectorAll('.card').forEach((card) => {
+        card.addEventListener('click', () => {
+            card.classList.toggle('flipped');
+        });
+    });
 }
 
 main();
