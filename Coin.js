@@ -15,7 +15,7 @@ function Coin(coin) {
             <div class="card">
                 <div class="card_front">
                     <div class="coin-description-header">
-                        <p id="${coin.id}">${coin.header}</p>
+                        <p class="bookmark" id="${coin.id}">${coin.header}</p>
                         <p>${coin.king}</p>
                     </div>
                     <div class="coin-description-container">
