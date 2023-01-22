@@ -84,7 +84,7 @@ export const coins = [
         },
         header: 'Commemorative coin, 2021',
         king: 'Princess Catharina-Amalia',
-        description: 'The Crown Princess of the Netherlands turns 18 in 2021. The National Commemorative Set celebrates this anniversary with the release of a commemorative coin. Catharina-Amalia, Princess of Orange, Princess of the Netherlands, Princess of Orange-Nassau.',
+        description: 'The Crown Princess of the Netherlands turns 18 in 2021. This anniversary is marked by the issuance of a commemorative coin. Catharina-Amalia Beatrix Carmen Victoria, Prinses van Oranje, Prinses der Nederlanden, Prinses van Oranje-Nassau is de kroonprinses van het Koninkrijk der Nederlanden.',
         info: 'Catharina-Amalia is the heir apparent to the throne of the Kingdom of the Netherlands, which consists of the constituent countries of Aruba, Curaçao, the Netherlands, and Sint Maarten. Catharina-Amalia is the eldest child of King Willem-Alexander and Queen Máxima of the Netherlands. She has two younger sisters, Princess Alexia and Princess Ariane. She became heir apparent to the Dutch throne when her father ascended the throne on 30 April 2013.'
     }
 ];
