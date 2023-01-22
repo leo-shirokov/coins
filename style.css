@@ -63,9 +63,7 @@ body {
 .header {
     width: 100%;
     height: 12vh;
-    /* background: linear-gradient(90deg, #91969A, #747E87); */
     background: linear-gradient(90deg, rgba(145, 150, 154, 0.5), rgba(116, 126, 135, 0.7));
-    /* background: rgba(116, 126, 135, 0.3); */
 }
 
 .header__container {
@@ -166,13 +164,21 @@ body {
 
 @media (max-width: 414px) {
     .header__logo {
-        padding: 12px 0px 0px 20px
+        padding: 8px 0px 0px 20px
     }
 }
 
 @media (max-width: 375px) {
     .header__logo {
-        padding: 2px 0px 0px 20px
+        padding: 8px 0px 0px 20px
+    }
+
+    .header__logo img {
+        width: 55px;
+    }
+
+    .header__title p {
+        font-size: 24px;
     }
 }
 
