@@ -239,7 +239,7 @@ body {
     backface-visibility: hidden;
 }
 
-.coin-description {
+.content__coin-description {
     width: 100%;
     height: 100%;
     align-items: center;
@@ -311,7 +311,7 @@ body {
     transform: rotateX(360deg);
 }
 
-.coin-description p {
+.content__coin-description p {
     font-size: 18px;
     line-height: 1.2;
     text-align: justify;
@@ -376,13 +376,13 @@ body {
         align-items: center;
     }
 
-    .coin-description {
+    .content__coin-description {
         width: 100%;
         height: 100%;
         margin: 90px 10px 10px 10px;
     }
 
-    .coin-description p {
+    .content__coin-description p {
         line-height: 1.1;
     }
 

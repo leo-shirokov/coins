@@ -11,7 +11,7 @@ function Coin(coin) {
                 </div>
             </div>
         </div>
-        <div class="coin-description">
+        <div class="content__coin-description">
             <div class="card">
                 <div class="card_front">
                     <div class="coin-description-header">
