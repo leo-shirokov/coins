@@ -8,7 +8,7 @@ export const coins = [
         header: 'First guilder, 1818',
         king: 'King William I',
         description: 'The very first coin of the Kingdom ever minted with a portrait of the first king of the Netherlands William I. Coin denomination 3 guilders. Diameter 40 mm (Crown-Size). William I, Prince of Orange-Nassau ruled the country from 1815 to 1840.',
-        info: 'William II (Dutch: Willem Frederik), Prince of Orange-Nassau [24 August 1772 – 12 December 1843] was a Prince of Orange, the King of the Netherlands and Grand Duke of Luxembourg. King William I\'s parents were the last stadtholder William V, Prince of Orange of the Dutch Republic, and his wife Wilhelmina of Prussia. Feeling threatened by Napoleon, who had escaped from Elba, William proclaimed the Netherlands a kingdom on 16 March 1815 at the urging of the powers gathered at the Congress of Vienna.'
+        info: 'William I (Dutch: Willem Frederik), Prince of Orange-Nassau [24 August 1772 – 12 December 1843] was a Prince of Orange, the King of the Netherlands and Grand Duke of Luxembourg. King William I\'s parents were the last stadtholder William V, Prince of Orange of the Dutch Republic, and his wife Wilhelmina of Prussia. Feeling threatened by Napoleon, who had escaped from Elba, William proclaimed the Netherlands a kingdom on 16 March 1815 at the urging of the powers gathered at the Congress of Vienna.'
     },
     {
         id: 'willem2',
@@ -82,7 +82,7 @@ export const coins = [
             obverse: './img/amalia_1.png',
             reverse: './img/amalia_2.png',
         },
-        header: 'Commemorative coin, 2021',
+        header: 'Jubilee coin, 2021',
         king: 'Princess Catharina-Amalia',
         description: 'The Crown Princess of the Netherlands turns 18 in 2021. This anniversary is marked by the issuance of a commemorative coin. Catharina-Amalia Beatrix Carmen Victoria, Prinses van Oranje, Prinses der Nederlanden, Prinses van Oranje-Nassau is de kroonprinses van het Koninkrijk der Nederlanden.',
         info: 'Catharina-Amalia is the heir apparent to the throne of the Kingdom of the Netherlands, which consists of the constituent countries of Aruba, Curaçao, the Netherlands, and Sint Maarten. Catharina-Amalia is the eldest child of King Willem-Alexander and Queen Máxima of the Netherlands. She has two younger sisters, Princess Alexia and Princess Ariane. She became heir apparent to the Dutch throne when her father ascended the throne on 30 April 2013.'
