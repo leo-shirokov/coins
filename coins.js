@@ -75,6 +75,17 @@ export const coins = [
         king: 'King Willem-Alexander',
         description: 'At the beginning of 2014, the first Dutch euro coins with a portrait of King Willem-Alexander were published. The design of the coin was presented on October 31, 2013. This coin is from the popular annual set with all 8 euro coins from 2015.Willem-Alexander is King of the Netherlands, having acceded to the throne following his mother\'s abdication in 2013.',
         info: 'Willem-Alexander Claus George Ferdinand born 27 April 1967. He became Prince of Orange as heir apparent upon his mother\'s accession as Queen on 30 April 1980, and succeeded her following her abdication on 30 April 2013. He married Máxima Zorreguieta Cerruti in 2002 and they have three daughters: Catharina-Amalia, Princess of Orange, Princess Alexia, and Princess Ariane. At his accession at age 46, Willem-Alexander was Europe\'s youngest monarch. He is also the first male monarch of the Netherlands since the death of his great-great-grandfather William III in 1890.'
+    },
+    {
+        id: 'amalia',
+        image: {
+            obverse: './img/amalia_1.png',
+            reverse: './img/amalia_2.png',
+        },
+        header: 'Commemorative coin, 2021',
+        king: 'Princess Catharina-Amalia',
+        description: 'The Crown Princess of the Netherlands turns 18 in 2021. The National Commemorative Set celebrates this anniversary with the release of a commemorative coin. Catharina-Amalia, Princess of Orange, Princess of the Netherlands, Princess of Orange-Nassau (Catharina-Amalia Beatrix Carmen Victoria',
+        info: 'Catharina-Amalia [born 7 December 2003] is the heir apparent to the throne of the Kingdom of the Netherlands, which consists of the constituent countries of Aruba, Curaçao, the Netherlands, and Sint Maarten. Catharina-Amalia is the eldest child of King Willem-Alexander and Queen Máxima of the Netherlands. She has two younger sisters, Princess Alexia and Princess Ariane. She became heir apparent to the Dutch throne when her father ascended the throne on 30 April 2013.'
     }
 ];
 export default coins;
