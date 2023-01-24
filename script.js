@@ -20,4 +20,24 @@ function main() {
     });
 }
 
+function addUpButton() {
+    const button = document.createElement('div');
+    button.classList.add('upbtn');
+    document.body.append(button);
+    document.addEventListener('scroll', (e) => {
+        if (window.scrollY > window.innerHeight - 100) {
+            button.style.bottom = '45px';
+        } else {
+            button.style.bottom = '-80px';
+        }
+    });
+    button.addEventListener('click', () => {
+        window.scroll({
+            top: 0,
+            behavior: 'smooth',
+        });
+    })
+}
+
 main();
+addUpButton();
