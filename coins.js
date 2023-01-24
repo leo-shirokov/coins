@@ -73,8 +73,19 @@ export const coins = [
         },
         header: '1 euro, 2015',
         king: 'King Willem-Alexander',
-        description: 'At the beginning of 2014, the first Dutch euro coins with a portrait of King Willem-Alexander were published. The design of the coin was presented on October 31, 2013. This coin is from the popular annual set with all 8 euro coins from 2015.Willem-Alexander is King of the Netherlands, having acceded to the throne following his mother\'s abdication in 2013.',
+        description: 'At the beginning of 2014, the first Dutch euro coins with a portrait of King Willem-Alexander were published. The design of the coin was presented on October 31, 2013. This coin is from the popular annual set with all 8 euro coins from 2015. Willem-Alexander is King of the Netherlands, having acceded to the throne following his mother\'s abdication in 2013.',
         info: 'Willem-Alexander Claus George Ferdinand born 27 April 1967. He became Prince of Orange as heir apparent upon his mother\'s accession as Queen on 30 April 1980, and succeeded her following her abdication on 30 April 2013. He married Máxima Zorreguieta Cerruti in 2002 and they have three daughters: Catharina-Amalia, Princess of Orange, Princess Alexia, and Princess Ariane. At his accession at age 46, Willem-Alexander was Europe\'s youngest monarch. He is also the first male monarch of the Netherlands since the death of his great-great-grandfather William III in 1890.'
+    },
+    {
+        id: 'maxima',
+        image: {
+            obverse: './img/maxima_1.png',
+            reverse: './img/maxima_2.png',
+        },
+        header: 'Jubilee coin, 2021',
+        king: 'Queen Maxima',
+        description: 'Maxima Zorreguieta Cerruti [17 May 1971] is Queen of the Netherlands as the wife of King Willem-Alexander. In 2021, Queen Maxima celebrated her 50th birthday. This anniversary is celebrated with the issuance of a gold-plated commemorative coin entirely dedicated to our Queen\'s birthday.',
+        info: 'Argentine by birth, she worked in marketing when she met Willem-Alexander, eldest son and heir apparent of Queen Beatrix, in 1999. They married in 2002, and became king and queen on the abdication of her mother-in-law on 30 April 2013.'
     },
     {
         id: 'amalia',
