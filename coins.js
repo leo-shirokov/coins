@@ -84,7 +84,7 @@ export const coins = [
         },
         header: 'Jubilee coin, 2021',
         king: 'Queen Maxima',
-        description: 'Maxima Zorreguieta Cerruti [17 May 1971] is Queen of the Netherlands as the wife of King Willem-Alexander. In 2021, Queen Maxima celebrated her 50th birthday. This anniversary is celebrated with the issuance of a gold-plated commemorative coin entirely dedicated to our Queen\'s birthday.',
+        description: 'Maxima Zorreguieta Cerruti [17 May 1971] is Queen of the Netherlands as the wife of King Willem-Alexander. In 2021, Queen Maxima celebrated her 50th birthday. This anniversary is celebrated with the issuance of a gold-plated commemorative coin entirely dedicated to the Queen\'s birthday.',
         info: 'Argentine by birth, she worked in marketing when she met Willem-Alexander, eldest son and heir apparent of Queen Beatrix, in 1999. They married in 2002, and became king and queen on the abdication of her mother-in-law on 30 April 2013.'
     },
     {

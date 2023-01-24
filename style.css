@@ -250,6 +250,23 @@ body {
     letter-spacing: 0.7px;
 }
 
+.about-gulden {
+    display: none;
+}
+
+@media (max-width: 820px) {
+    .about-gulden {
+        display: block;
+        margin-top: 15px;
+        width: 100%%;
+    }
+
+    .about-gulden p {
+        font-size: 15px;
+        font-style: oblique;
+    }
+}
+
 .content__coin {
     width: 100%;
     height: 8rem;
@@ -486,6 +503,13 @@ body {
     .content__about p {
         font-size: 16px;
         line-height: 1.2;
+    }
+
+    .about-gulden p {
+        width: 95%;
+        font-size: 11px;
+        font-style: oblique;
+        text-align: justify;
     }
 
     .content__coin {
