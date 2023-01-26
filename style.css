@@ -670,6 +670,10 @@ body {
         height: 25vh;
     }
 
+    .header__logo {
+        padding: 10px 0px 0px 20px;
+    }
+
     .card p {
         font-size: 16px;
     }
