@@ -70,7 +70,7 @@ export const coins = [
         coin: 'original coin',
         description:
             'Silver guilders with a portrait of Queen Juliana were first issued in 1954, 6 years after her accession to the throne. Prior to that, her mother, Queen Wilhelmina, was depicted on coins for 62 years. Silver guilders were minted for 13 years during the reign of Queen Juliana until 1967. Jiliana was Queen of the Netherlands from 1948 until her abdication in 1980.',
-        info: 'Juliana Louise Emma Marie Wilhelmina [30 April 1909 – 20 March 2004] was the only child of Queen Wilhelmina and Prince Henry of Mecklenburg-Schwerin. In 1937, she married Prince Bernhard of Lippe-Biesterfeld with whom she had four daughters: Beatrix, Irene, Margriet, and Christina. During the German invasion of the Netherlands in the Second World War, the royal family was evacuated to the United Kingdom. Juliana then relocated to Canada with her children, while Wilhelmina and Bernhard remained in Britain. The royal family returned to the Netherlands after its liberation in 1945.',
+        info: 'Juliana Louise Emma Marie Wilhelmina [30 April 1909 – 20 March 2004] was the only child of Queen Wilhelmina and Prince Henry of Mecklenburg-Schwerin. In 1937, she married Prince Bernhard of Lippe-Biesterfeld with whom she had four daughters: Beatrix, Irene, Margriet, and Christina. During the German invasion of the Netherlands in the Second World War, the royal family was evacuated to the United Kingdom. Juliana then relocated to Canada with her children, while Wilhelmina and Bernhard remained in Britain.',
     },
     {
         id: 'beatrix',

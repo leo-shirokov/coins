@@ -14,12 +14,14 @@ function Coin(coin) {
         <div class="content__coin-description">
             <div class="card">
                 <div class="card_front">
-                    <div class="coin-description-header">
-                        <p id="${coin.id}">${coin.header}</p>
-                        <p>${coin.king}</p>
-                    </div>
-                    <div class="coin-description-original">
+                    <div class="coin-header-container">
+                        <div class="coin-description-header">
+                            <p id="${coin.id}">${coin.header}</p>
+                            <p>${coin.king}</p>
+                        </div>
+                        <div class="coin-description-original">
                         <p>${coin.coin}</p>
+                        </div>
                     </div>
                     <div class="coin-description-container">
                         <p>${coin.description}</p>
