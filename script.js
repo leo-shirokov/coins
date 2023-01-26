@@ -2,10 +2,9 @@ import { coins } from './coins.js';
 import Coin from './Coin.js';
 
 function main() {
-    document.querySelector('main.content').insertAdjacentHTML(
-        'beforeend',
-        coins.map(Coin).join(''),
-    );
+    document
+        .querySelector('main.content')
+        .insertAdjacentHTML('beforeend', coins.map(Coin).join(''));
 
     document.querySelectorAll('.flip-wrapper').forEach((wrapper) => {
         wrapper.addEventListener('click', () => {
@@ -24,7 +23,7 @@ function addUpButton() {
     const button = document.createElement('div');
     button.classList.add('upbtn');
     document.body.append(button);
-    document.addEventListener('scroll', (e) => {
+    document.addEventListener('scroll', () => {
         if (window.scrollY > window.innerHeight - 100) {
             button.style.bottom = '45px';
         } else {
@@ -36,7 +35,7 @@ function addUpButton() {
             top: 0,
             behavior: 'smooth',
         });
-    })
+    });
 }
 
 main();

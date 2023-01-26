@@ -1,0 +1,28 @@
+{
+    "name": "coins",
+    "version": "1.0.0",
+    "description": "My second project in my life. Started learning JavaScript. The knowledge gained was used in this project. In addition, I consolidated my knowledge of 3D animation. This is my personal coin collection. Used original photos of the coins. The descriptions are taken from the brochures that were included with the purchase of the coins.",
+    "main": "coins.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/leo-shirokov/coins.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/leo-shirokov/coins/issues"
+    },
+    "homepage": "https://github.com/leo-shirokov/coins#readme",
+    "devDependencies": {
+        "eslint": "^8.32.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^8.6.0",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-prettier": "^4.2.1",
+        "prettier": "^2.8.3"
+    }
+}
