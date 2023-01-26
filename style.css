@@ -478,12 +478,22 @@ body {
 .coin-description-header p:nth-child(1) {
     color: rgba(44, 64, 79, 0.9);
     font-weight: 700;
-    line-height: 2.2;
 }
 
 .coin-description-header p:nth-child(2) {
     color: rgba(171, 31, 27, 0.8);
     font-weight: 700;
+}
+
+.coin-description-original {
+    margin-top: 8px;
+    color: rgba(44, 64, 79, 0.8);
+}
+
+.coin-description-original p {
+    font-family: 'Fredericka the Great', cursive;
+    /* font-family: 'Permanent Marker', cursive; */
+    font-size: 16px;
 }
 
 .coin-description-container {
