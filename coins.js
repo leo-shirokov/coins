@@ -27,9 +27,9 @@ export const coins = [
             obverse: './img/willem-3_1.png',
             reverse: './img/willem-3_2.png',
         },
-        header: '1 guilder, 1867',
+        header: '1/2 guilder, 1860',
         king: 'King William III',
-        description: 'The obverse of the coin depicts the bust of William III facing right. On the reverse of the coin: crowned coat of arms of the Netherlands between the denomination. This guilder was minted for the World Exhibition in Paris in 1867. William III ruled the country from 1840 to 1890.',
+        description: 'The 1/2 guilder coin has not been in circulation since 1930. The Halve Gulden, however, is part of the original nominal system adopted on September 18, 1816 in the new currency law. The issue from 1818 is the very first Halve Gulden from the Kingdom of the Netherlands. The Halve Gulden actually only became a consistent currency in our coin system under Wilhelmina.',
         info: 'William III (Dutch: Willem Alexander Paul Frederik Lodewijk). William III [19 February 1817 – 23 November 1890] was King of the Netherlands and Grand Duke of Luxembourg from 1849 until his death in 1890. He was also the Duke of Limburg from 1849 until the abolition of the duchy in 1866. William III married his cousin Sophie of Württemberg in 1839 and they had three sons. After Sophie\'s death in 1877 he married Emma of Waldeck and Pyrmont in 1879 and they had one daughter Wilhelmina, who succeeded William to the Dutch throne. '
     },
     {
