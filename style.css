@@ -45,7 +45,8 @@ html,
 body {
     height: 100%;
     line-height: 1;
-    font-family: 'Glass Antiqua', cursive;
+    font-family: 'Glass Antiqua', 'Gill Sans', 'Gill Sans MT', Calibri,
+        'Trebuchet MS', sans-serif;
     font-size: 24px;
     font-weight: 400;
     color: rgba(44, 64, 79, 1);
@@ -275,7 +276,7 @@ body {
     }
 
     .about-gulden p {
-        font-size: 15px;
+        font-size: 16px;
         font-style: oblique;
     }
 }
@@ -379,7 +380,6 @@ body {
 .content__coin-description {
     width: 100%;
     height: 100%;
-    /* align-items: center; */
     margin-left: 40px;
 }
 
@@ -396,7 +396,6 @@ body {
 .card_front,
 .card_back {
     padding: 10px 15px 10px 15px;
-    /* overflow: auto; */
     cursor: pointer;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
@@ -404,8 +403,6 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    /* top: 0;
-    left: 0; */
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-transition: 1s;
@@ -459,12 +456,6 @@ body {
     transform: rotateX(360deg);
 }
 
-/* .content__coin-description p {
-    font-size: 18px;
-    line-height: 1.2;
-    text-align: justify;
-} */
-
 .coin-description-header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -494,7 +485,8 @@ body {
 }
 
 .coin-description-original p {
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Fredericka the Great', 'Franklin Gothic Medium', Arial,
+        sans-serif;
     font-size: 16px;
 }
 
@@ -695,11 +687,11 @@ body {
 
 @media (max-width: 414px) {
     .coin-description-container p {
-        font-size: 17px;
+        font-size: 16.5px;
     }
 
     .coin-info-container {
-        font-size: 17px;
+        font-size: 16.5px;
     }
 }
 

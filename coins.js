@@ -109,9 +109,10 @@ export const coins = [
         as the wife of King Willem-Alexander. In 2021, Queen Maxima celebrated her 50th birthday. 
         This anniversary was celebrated with the issuance of a gold-plated commemorative coin 
         entirely dedicated to the Queen's birthday.`,
-        info: `Argentine by birth, she worked in marketing when she met Willem-Alexander, 
+        info: `Argentine by birth, Maxima worked in marketing when she met Willem-Alexander, 
         eldest son and heir apparent of Queen Beatrix, in 1999. They married in 2002, 
-        and became king and queen on the abdication of her mother-in-law on 30 April 2013.`,
+        and became king and queen on the abdication of her mother-in-law on 30 April 2013.
+        Máxima was granted Dutch citizenship by a royal decree on 17 May 2001 and now has dual citizenship: Argentine and Dutch.`,
     },
     {
         id: 'amalia',
