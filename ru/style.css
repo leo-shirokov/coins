@@ -218,12 +218,15 @@ body {
 }
 
 @media (max-width: 414px) {
+    .header {
+        height: 14vh;
+    }
     .header__logo {
         padding: 5px 0px 0px 10px;
     }
 
     .header__title p {
-        font-size: 22px;
+        font-size: 23px;
     }
 }
 
