@@ -154,6 +154,9 @@ body {
 }
 
 .header__locale {
+    display: flex;
+    align-items: center;
+    gap: 7px;
     padding: 2px 6px 0px 0px;
     position: absolute;
     top: 0;
@@ -162,7 +165,7 @@ body {
 }
 
 .header__locale img {
-    width: 25px;
+    width: 1rem;
 }
 
 .header__title {
@@ -234,7 +237,11 @@ body {
     }
 
     .header__title p {
-        font-size: 24px;
+        font-size: 20px;
+    }
+
+    .header__title {
+        padding: 15px 5px 5px 0px;
     }
 }
 
@@ -247,8 +254,12 @@ body {
         width: 50px;
     }
 
+    .header__title {
+        padding: 20px 5px 5px 0px;
+    }
+
     .header__title p {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
