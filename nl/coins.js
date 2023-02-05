@@ -48,7 +48,7 @@ export const coins = [
         coin: 'officiële herslag van de munt',
         description:
             'De kopzijde toont het portret van Wilhelmina als meisje met hangend lang haar, kijkend naar links. De tegenzijde toont het gekroonde Nederlandse wapenschild tussen de waardeaanduiding 10 G. Wilhelmina is de achterkleindochter van de Russische keizer Paul I. Zij was koningin der Nederlanden van 1890 tot haar troonsafstand in 1948.',
-        info: 'Wilhelmina (Wilhelmina Helena Pauline Maria), 31 augustus 1880 — 28 november 1962, regeerde bijna 58 jaar, langer dan enige andere Nederlandse monarch. Haar bewind viel op de jaren van de Eerste en Tweede Wereldoorlog, de economische crisis van 1933 in Nederland. Wilhelmina besteeg de troon op 10-jarige leeftijd na de dood van haar vader in 1890. Op 7 februari 1901 trouwde koningin Wilhelmina in Den Haag met hertog Heinrich van Mecklenburg-Schwerin.',
+        info: 'Wilhelmina (Wilhelmina Helena Pauline Maria), 31 augustus 1880 — 28 november 1962, regeerde bijna 58 jaar, langer dan enige andere Nederlandse monarch. Haar bewind viel in de jaren van de Eerste en Tweede Wereldoorlog, de economische crisis van 1933 in Nederland. Wilhelmina besteeg de troon op 10-jarige leeftijd na de dood van haar vader in 1890. Op 7 februari 1901 trouwde koningin Wilhelmina in Den Haag met hertog Heinrich van Mecklenburg-Schwerin.',
     },
     {
         id: 'juliana',
@@ -61,7 +61,7 @@ export const coins = [
         coin: 'originele munt',
         description:
             'De kopzijde toont het portret van Juliana naar rechts. De tegenzijde toont het gekroonde Nederlandse wapenschild tussen de waardeaanduiding. Slechts 13 jaar worden er onder het bewind van Juliana zilveren guldens uitgegeven. In 1967 worden zowel de laatste zilveren als eerste nikkelen omloopguldens uitgegeven. Juliana was koningin der Nederlanden van 1948 tot haar troonsafstand in 1980.',
-        info: 'Juliana (Juliana Louise Emma Marie Wilhelmina), 30 april 1909 — 20 maart 2004, trouwde in 1937 met prins Bernhard van Lippe-Biesterfeld, met wie ze vier dochters kreeg: Beatrix, Irene, Margriet en Christina. Tijdens de Duitse inval in Nederland tijdens de Tweede Wereldoorlog werd de koninklijke familie geëvacueerd naar Groot-Brittannië.',
+        info: 'Juliana (Juliana Louise Emma Marie Wilhelmina), 30 april 1909 — 20 maart 2004, trouwde in 1937 met prins Bernhard van Lippe-Biesterfeld, met wie ze vier dochters kreeg: Beatrix, Irene, Margriet en Christina.  Gedurende de Duitse inval in Nederland tijdens de Tweede Wereldoorlog werd de koninklijke familie geëvacueerd naar Groot-Brittannië.',
     },
     {
         id: 'beatrix',
