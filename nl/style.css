@@ -738,16 +738,6 @@ body {
     .coin-info-container {
         font-size: 16.5px;
     }
-
-    .coin_header {
-        padding-right: 10px;
-    }
-}
-
-@media (max-width: 375px) {
-    .coin_header {
-        padding-right: 0px;
-    }
 }
 
 @media (max-width: 375px) {
@@ -769,13 +759,13 @@ body {
     }
 }
 
-@media only screen and (max-width: 896px) and (orientation: landscape) {
-    .header {
-        height: 25vh;
-    }
-
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
     .header__logo {
         padding: 10px 0px 0px 20px;
+    }
+
+    .header__logo img {
+        width: 70px;
     }
 
     .card p {
@@ -787,19 +777,45 @@ body {
     }
 }
 
-@media only screen and (max-width: 667px) and (orientation: landscape) {
-    .header__logo {
-        padding: 10px 0px 0px 20px;
+@media only screen and (max-width: 896px) and (orientation: landscape) {
+    .header {
+        height: 20vh;
     }
-}
 
-@media only screen and (max-width: 568px) and (orientation: landscape) {
     .header__logo {
         padding: 5px 0px 0px 20px;
     }
 
     .header__logo img {
         width: 60px;
+    }
+}
+
+@media only screen and (max-width: 667px) and (orientation: landscape) {
+    .header__logo {
+        padding: 10px 0px 0px 20px;
+    }
+
+    .header__logo img {
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 568px) and (orientation: landscape) {
+    .header {
+        height: 25vh;
+    }
+
+    .header__logo {
+        padding: 5px 0px 0px 20px;
+    }
+
+    .header__logo img {
+        width: 60px;
+    }
+
+    .header__title {
+        font-size: 25px;
     }
 }
 

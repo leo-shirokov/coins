@@ -697,7 +697,6 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 50px 0px 150px 0px;
     }
 
     .flip {
@@ -769,18 +768,12 @@ body {
 }
 
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
-    .gulden {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 896px) and (orientation: landscape) {
-    .header {
-        height: 25vh;
-    }
-
     .header__logo {
         padding: 10px 0px 0px 20px;
+    }
+
+    .header__logo img {
+        width: 70px;
     }
 
     .card p {
@@ -790,9 +783,19 @@ body {
     .footer {
         height: 35vh;
     }
+}
 
-    .gulden {
-        display: none;
+@media only screen and (max-width: 896px) and (orientation: landscape) {
+    .header {
+        height: 20vh;
+    }
+
+    .header__logo {
+        padding: 5px 0px 0px 20px;
+    }
+
+    .header__logo img {
+        width: 60px;
     }
 }
 
@@ -800,15 +803,27 @@ body {
     .header__logo {
         padding: 10px 0px 0px 20px;
     }
+
+    .header__logo img {
+        width: 50px;
+    }
 }
 
 @media only screen and (max-width: 568px) and (orientation: landscape) {
+    .header {
+        height: 25vh;
+    }
+
     .header__logo {
         padding: 5px 0px 0px 20px;
     }
 
     .header__logo img {
         width: 60px;
+    }
+
+    .header__title {
+        font-size: 25px;
     }
 }
 
