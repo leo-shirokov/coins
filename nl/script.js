@@ -1,10 +1,15 @@
 import { coins } from './coins.js';
+import { coinsNew } from './coinsNew.js';
 import Coin from './Coin.js';
 
 function main() {
     document
-        .querySelector('main.content')
-        .insertAdjacentHTML('beforeend', coins.map(Coin).join(''));
+        .querySelector('section.content__about')
+        .insertAdjacentHTML('afterend', coins.map(Coin).join(''));
+
+    document
+        .querySelector('section.content__info')
+        .insertAdjacentHTML('afterend', coinsNew.map(Coin).join(''));
 
     document.querySelectorAll('.flip-wrapper').forEach((wrapper) => {
         wrapper.addEventListener('click', () => {
