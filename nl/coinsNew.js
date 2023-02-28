@@ -6,11 +6,11 @@ export const coinsNew = [
             reverse: '../img/willem-alexander_2.png',
         },
         header: '1 euro, 2015',
-        king: 'King Willem-Alexander',
-        coin: 'original coin',
+        king: 'Koning Willem-Alexander',
+        coin: 'originele munt',
         description:
-            "At the beginning of 2014, the first Dutch euro coins with a portrait of King Willem-Alexander were published. The design of the coin was presented on October 31, 2013. This coin is from the popular annual set with all 8 euro coins from 2015. Willem-Alexander is King of the Netherlands, having acceded to the throne following his mother's abdication in 2013.",
-        info: "Willem-Alexander Claus George Ferdinand born 27 April 1967. He became Prince of Orange as heir apparent upon his mother's accession as Queen on 30 April 1980, and succeeded her following her abdication on 30 April 2013. He married Máxima Zorreguieta Cerruti in 2002 and they have three daughters: Catharina-Amalia, Princess of Orange, Princess Alexia, and Princess Ariane. At his accession at age 46, Willem-Alexander was Europe's youngest monarch.",
+            'Begin 2014 werden de eerste Nederlandse euromunten met een portret van Koning Willem-Alexander uitgegeven. Het ontwerp van de munt is op 31 oktober 2013 gepresenteerd. Deze munt komt uit de populaire set 2015, die alle acht euromunten van verschillende denominaties bevat. Willem-Alexander is de koning van Nederland, die de troon besteeg na de troonsafstand van zijn moeder in 2013.',
+        info: 'Koning Willem-Alexander Claus George Ferdinand werd geboren op 27 april 1967. Hij werd Prins van Oranje en erfgenaam van de troon nadat zijn moeder de troon besteeg op 30 april 1980, en volgde haar op bij haar troonsafstand op 30 april 2013. In 2002 trouwde hij met Máxima Sorreguieta Cerruti. Ze hebben drie dochters: Katarina-Amalia, Prinses van Oranje, Prinses Alexia en Prinses Ariana. Bij zijn troonsbestijging op 46-jarige leeftijd was Willem-Alexander de jongste monarch van Europa.',
     },
     {
         id: 'maxima',
@@ -18,17 +18,11 @@ export const coinsNew = [
             obverse: '../img/maxima_1.png',
             reverse: '../img/maxima_2.png',
         },
-        header: 'Jubilee coin, 2021',
-        king: 'Queen Maxima',
-        coin: 'original',
-        description: `Maxima Zorreguieta Cerruti [17 May 1971] is Queen of the Netherlands 
-    as the wife of King Willem-Alexander. In 2021, Queen Maxima celebrated her 50th birthday. 
-    This anniversary was celebrated with the issuance of a gold-plated commemorative coin 
-    entirely dedicated to the Queen's birthday.`,
-        info: `Argentine by birth, Maxima worked in marketing when she met Willem-Alexander, 
-    eldest son and heir apparent of Queen Beatrix, in 1999. They married in 2002, 
-    and became king and queen on the abdication of her mother-in-law on 30 April 2013.
-    Máxima was granted Dutch citizenship by a royal decree on 17 May 2001 and now has dual citizenship: Argentine and Dutch.`,
+        header: 'Herdenkingsmunt, 2021',
+        king: 'Koningin Maxima',
+        coin: 'origineel',
+        description: `Maxima (Maxima Zorreguieta Cerruti), 17 mei 1971, is de echtgenote van koning Willem-Alexander. Koningin Maxima wordt in 2021 50 jaar. Dit jubileum werd gemarkeerd door de uitgifte van een vergulde herdenkingsmunt ter ere van de verjaardag van de koningin.`,
+        info: `In april 1999 ontmoette Maxima kroonprins Willem-Alexander in de Spaanse stad Sevilla. Ruim een jaar later verhuisde zij naar Brussel, waar zij tot april 2001 bij het EU-kantoor van Deutsche Bank heeft gewerkt. Op 17 mei 2001 werd Máxima bij koninklijk besluit het Nederlanderschap verleend. Met de Nederlandse nationaliteit zou zij door haar huwelijk lid worden van het Koninklijk Huis.`,
     },
     {
         id: 'amalia',
@@ -36,19 +30,11 @@ export const coinsNew = [
             obverse: '../img/amalia_1.png',
             reverse: '../img/amalia_2.png',
         },
-        header: 'Jubilee coin, 2021',
+        header: 'Herdenkingsmunt, 2021',
         king: 'Princess Catharina-Amalia',
-        coin: 'original',
-        description: `The Crown Princess of the Netherlands turned 18 in 2021. This anniversary 
-    is marked by the issuance of a commemorative coin. Catharina-Amalia Beatrix
-    Carmen Victoria, Princess of Orange, Princess of the Netherlands, Princess of Orange-Nassau
-    is the Crown Princess of the Kingdom of the Netherlands.`,
-        info: `Catharina-Amalia is the heir apparent to the throne of the Kingdom of 
-    the Netherlands, which consists of the constituent countries of Aruba, Curaçao, 
-    the Netherlands, and Sint Maarten. Catharina-Amalia is the eldest child of King 
-    Willem-Alexander and Queen Máxima of the Netherlands. She has two younger sisters, 
-    Princess Alexia and Princess Ariane. She became heir apparent to the Dutch throne 
-    when her father ascended the throne on 30 April 2013.`,
+        coin: 'origineel',
+        description: `In 2021 vierde de kroonprinses van Nederland haar 18e verjaardag. Sinds die dag wordt ze formeel aangeduid als Hare Koninklijke Hoogheid de Prinses van Oranje. Dit jubileum werd gemarkeerd door de uitgifte van een vergulde herdenkingsmunt.`,
+        info: `Catharina-Amalia Beatrix Carmen Victoria (Amalia), Prinses van Oranje, Prinses der Nederlanden, Prinses van Oranje-Nassau is de eerste in lijn van troonsopvolging. Ze werd op 7 december 2003 geboren in Den Haag en is het oudste kind van koning Willem-Alexander en koningin Maxima.`,
     },
 ];
 export default coinsNew;

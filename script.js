@@ -7,13 +7,9 @@ const lang =
     window.navigator.userLanguage ||
     window.navigator.systemLanguage;
 if (lang === 'ru') {
-    window.location.replace(
-        'https://leo-shirokov.github.io/coins/ru/index.html'
-    );
+    window.location.href = 'https://leo-shirokov.github.io/coins/ru/index.html';
 } else if (window.location === 'nl') {
-    window.location.replace(
-        'https://leo-shirokov.github.io/coins/nl/index.html'
-    );
+    window.location.href = 'https://leo-shirokov.github.io/coins/nl/index.html';
 }
 
 function main() {
