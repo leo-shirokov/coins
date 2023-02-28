@@ -2,16 +2,6 @@ import { coins } from './coins.js';
 import { coinsNew } from './coinsNew.js';
 import Coin from './Coin.js';
 
-const lang =
-    window.navigator.language ||
-    window.navigator.userLanguage ||
-    window.navigator.systemLanguage;
-if (lang === 'ru') {
-    window.location.href = 'https://leo-shirokov.github.io/coins/ru/index.html';
-} else if (window.location === 'nl') {
-    window.location.href = 'https://leo-shirokov.github.io/coins/nl/index.html';
-}
-
 function main() {
     document
         .querySelector('section.content__about')
