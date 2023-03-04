@@ -176,6 +176,14 @@ body {
     background-position: left top;
     background-origin: border-box;
     background-size: cover;
+    position: relative;
+}
+
+.canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
 }
 
 @media (max-width: 1024px) {
