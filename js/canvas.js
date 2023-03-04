@@ -41,8 +41,8 @@ class Bubble {
     }
 
     move() {
-        this.translateX = this.translateX - this.movementX;
-        this.translateY = this.translateY - this.movementY;
+        this.translateX -= this.movementX;
+        this.translateY -= this.movementY;
         if (
             this.translateY < 0 ||
             this.translateX < 0 ||
@@ -75,7 +75,7 @@ class CanvasBackground {
 
     generateBubbles() {
         this.bubblesList = [];
-        for (let i = 0; i < BUBBLE_DENSITY; i++) {
+        for (let i = 0; i < BUBBLE_DENSITY; i += 1) {
             this.bubblesList.push(new Bubble(this.canvas));
         }
     }
