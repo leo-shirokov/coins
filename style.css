@@ -98,6 +98,7 @@ body {
 .header__logo {
     height: 100%;
     padding: 20px 0px 0px 20px;
+    z-index: 100;
 }
 
 .header__logo img {
@@ -117,27 +118,20 @@ body {
 .logo_transform {
     position: absolute;
     -webkit-animation: notransform 5s linear 1;
-    animation: notransform 5s linear 1;
+    animation: notransform 3s linear 1;
+    animation-fill-mode: forwards;
 }
 
 .logo_rotate {
-    -webkit-transform: rotate3d(1, 1, 1, 360deg) translate3d(0px, 0px, 30px);
-    transform: rotate3d(1, 1, 1, 360deg) translate3d(0px, 0px, 30px);
-    -webkit-animation-delay: 0.3s;
-    animation-delay: 0.3s;
-}
+    transform: rotate3d(1, 1, 1, 360deg) translate3d(200px, 380px, 30px);
 
-@-webkit-keyframes notransform {
-    50% {
-        -webkit-transform: none;
-        transform: none;
-    }
+    animation-delay: 0.9s;
 }
 
 @keyframes notransform {
-    50% {
-        -webkit-transform: none;
-        transform: none;
+    100% {
+        /* transform: none; */
+        transform: rotate3d(1, 1, 1, 0deg) translate3d(0px, 0px, 30px);
     }
 }
 
