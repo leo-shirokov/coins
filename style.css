@@ -117,21 +117,19 @@ body {
 
 .logo_transform {
     position: absolute;
-    -webkit-animation: notransform 5s linear 1;
-    animation: notransform 3s linear 1;
+    animation: notransform 2s linear 1;
     animation-fill-mode: forwards;
 }
 
 .logo_rotate {
-    transform: rotate3d(1, 1, 1, 360deg) translate3d(200px, 380px, 30px);
+    transform: rotate3d(1.8, 1.5, 1, 360deg) translate3d(200px, 380px, 40px);
 
-    animation-delay: 0.9s;
+    animation-delay: 0.5s;
 }
 
 @keyframes notransform {
     100% {
-        /* transform: none; */
-        transform: rotate3d(1, 1, 1, 0deg) translate3d(0px, 0px, 30px);
+        transform: none;
     }
 }
 
