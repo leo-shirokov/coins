@@ -154,6 +154,7 @@ body {
 
 .header__locale img {
     width: 1rem;
+    opacity: 0.9;
 }
 
 .header__title {
