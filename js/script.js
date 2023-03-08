@@ -2,6 +2,24 @@ import { coins } from './coins.js';
 import { coinsNew } from './coinsNew.js';
 import Coin from './Coin.js';
 
+function logoAnimationStart() {
+    if (window.scrollY > 0) {
+        document
+            .querySelector('.logo-animation')
+            .classList.add('logo_rotate_forward');
+        document
+            .querySelector('.logo-animation')
+            .classList.remove('logo_rotate_back');
+    } else {
+        document
+            .querySelector('.logo-animation')
+            .classList.add('logo_rotate_back');
+        document
+            .querySelector('.logo-animation')
+            .classList.remove('logo_rotate_forward');
+    }
+}
+
 function main() {
     document
         .querySelector('section.content__about')
@@ -43,5 +61,6 @@ function addUpButton() {
     });
 }
 
+window.addEventListener('scroll', logoAnimationStart);
 main();
 addUpButton();

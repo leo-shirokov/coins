@@ -115,19 +115,26 @@ body {
     transform-style: preserve-3d;
 }
 
-.logo_transform {
+.logo_rotate_forward {
     position: absolute;
     animation: notransform 2s linear 1;
-    animation-fill-mode: forwards;
-}
-
-.logo_rotate {
     transform: rotate3d(1.8, 1.5, 1, 360deg) translate3d(200px, 380px, 40px);
-
-    animation-delay: 0.5s;
 }
 
 @keyframes notransform {
+    0% {
+        transform: none;
+    }
+}
+
+.logo_rotate_back {
+    position: absolute;
+    animation: notransform2 2s linear 1;
+    transform: rotate3d(1.8, 1.5, 1, 360deg) translate3d(200px, 380px, 40px);
+    animation-fill-mode: forwards;
+}
+
+@keyframes notransform2 {
     100% {
         transform: none;
     }
