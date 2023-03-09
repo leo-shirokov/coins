@@ -348,9 +348,9 @@ body {
     backface-visibility: hidden;
     width: 180px;
     height: 180px;
-    -webkit-transition: 2s;
-    -o-transition: 2s;
-    transition: 2s;
+    -webkit-transition: 0.9s;
+    -o-transition: 0.9s;
+    transition: 0.9s;
 }
 
 .flip:hover {
