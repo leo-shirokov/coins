@@ -543,14 +543,22 @@ body {
 }
 
 .content__info {
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
-.content__info p {
+.summary {
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.details p {
+    padding: 10px;
     font-size: 16px;
     line-height: 1.2;
     text-align: justify;
-    font-style: oblique;
+    background-color: rgb(244, 244, 244);
+    border-radius: 5px;
 }
 
 .content__image {
