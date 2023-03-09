@@ -4,19 +4,9 @@ import Coin from './Coin.js';
 
 function logoAnimationStart() {
     if (window.scrollY > 0) {
-        document
-            .querySelector('.logo-animation')
-            .classList.add('logo_rotate_forward');
-        document
-            .querySelector('.logo-animation')
-            .classList.remove('logo_rotate_back');
+        document.querySelector('.logo-animation').classList.add('active');
     } else {
-        document
-            .querySelector('.logo-animation')
-            .classList.add('logo_rotate_back');
-        document
-            .querySelector('.logo-animation')
-            .classList.remove('logo_rotate_forward');
+        document.querySelector('.logo-animation').classList.remove('active');
     }
 }
 

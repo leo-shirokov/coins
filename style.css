@@ -115,29 +115,14 @@ body {
     transform-style: preserve-3d;
 }
 
-.logo_rotate_forward {
+.logo-animation {
     position: absolute;
-    animation: notransform 2s linear 1;
+    transition: all 2s ease;
+    transform: rotate3d(0, 0, 0, 0deg) translate3d(0px, 0px, 0px);
+}
+
+.logo-animation.active {
     transform: rotate3d(1.8, 1.5, 1, 360deg) translate3d(200px, 380px, 40px);
-}
-
-@keyframes notransform {
-    0% {
-        transform: none;
-    }
-}
-
-.logo_rotate_back {
-    position: absolute;
-    animation: notransform2 2s linear 1;
-    transform: rotate3d(1.8, 1.5, 1, 360deg) translate3d(200px, 380px, 40px);
-    animation-fill-mode: forwards;
-}
-
-@keyframes notransform2 {
-    100% {
-        transform: none;
-    }
 }
 
 .header__locale {
