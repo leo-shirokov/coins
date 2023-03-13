@@ -619,6 +619,7 @@ body {
 	top: 10px;
 	left: 10px;
     background-color: transparent;
+    color: rgba(44, 64, 79, 1);
 }
 
 .scroll-lock {
