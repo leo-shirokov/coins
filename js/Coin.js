@@ -28,13 +28,14 @@ function Coin(coin) {
                     </div>
                 </div>
                 <div class="card_back">
-                    <div class="coin-info-container">
+                    <div class="coin-description-container">
                         <p>${coin.info}</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-`;
+    `;
 }
+
 export default Coin;

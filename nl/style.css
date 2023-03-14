@@ -535,15 +535,6 @@ body {
     text-align: justify;
 }
 
-.coin-info-container {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    font-size: 18px;
-    line-height: 1.2;
-    text-align: justify;
-}
-
 .content__info {
     padding-bottom: 50px;
 }
