@@ -5,8 +5,8 @@ const closeModalBtn = document.querySelector('.modal-close');
 const style = document.createElement('style');
 
 function openModalAndLockScroll() {
-    // style.innerHTML = '.flip::after { content: none }';
-    // document.head.appendChild(style);
+    style.innerHTML = '.flip::after { content: none }';
+    document.head.appendChild(style);
     modal.classList.add('modal-open');
     overlay.classList.add('modal-open');
     document.body.classList.add('scroll-lock');
