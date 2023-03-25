@@ -599,6 +599,7 @@ body {
     transform: translateX(-50%);
     margin: auto;
     width: 95%;
+    height: 70%;
     padding: 60px 50px 0px 110px;
     border-radius: 5px;
     background-color: white;
@@ -607,6 +608,7 @@ body {
     transition: all 0.7s ease;
     opacity: 0;
     visibility: hidden;
+    overflow: auto;
 }
 
 .modal-open {
@@ -766,6 +768,7 @@ body {
 
     .popup {
         padding: 50px 20px 10px 20px;
+        height: 90%;
     }
 }
 

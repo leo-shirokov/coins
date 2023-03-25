@@ -1,6 +1,15 @@
+import Coin from './Coin.js';
 import { coins } from './coins.js';
 import { coinsNew } from './coinsNew.js';
-import Coin from './Coin.js';
+import { coinsPopup } from './coinsPopup.js';
+
+// function logoAnimationStart() {
+//     if (window.scrollY > 0) {
+//         document.querySelector('.logo-animation').classList.add('active');
+//     } else {
+//         document.querySelector('.logo-animation').classList.remove('active');
+//     }
+// }
 
 function main() {
     document
@@ -10,6 +19,10 @@ function main() {
     document
         .querySelector('section.content__info')
         .insertAdjacentHTML('afterend', coinsNew.map(Coin).join(''));
+
+    document
+        .querySelector('section.popup')
+        .insertAdjacentHTML('afterbegin', coinsPopup.map(Coin).join(''));
 
     document.querySelectorAll('.flip-wrapper').forEach((wrapper) => {
         wrapper.addEventListener('click', () => {
@@ -43,5 +56,6 @@ function addUpButton() {
     });
 }
 
+// window.addEventListener('scroll', logoAnimationStart);
 main();
 addUpButton();
