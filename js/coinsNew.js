@@ -2,8 +2,8 @@ export const coinsNew = [
     {
         id: 'willemalexander',
         image: {
-            obverse: '../img/willem-alexander_1.png',
-            reverse: '../img/willem-alexander_2.png',
+            obverse: './img/willem-alexander_1.png',
+            reverse: './img/willem-alexander_2.png',
         },
         header: '1 euro, 2015',
         king: 'King Willem-Alexander',
@@ -15,8 +15,8 @@ export const coinsNew = [
     {
         id: 'maxima',
         image: {
-            obverse: '../img/maxima_1.png',
-            reverse: '../img/maxima_2.png',
+            obverse: './img/maxima_1.png',
+            reverse: './img/maxima_2.png',
         },
         header: 'Jubilee coin, 2021',
         king: 'Queen Maxima',
@@ -33,8 +33,8 @@ export const coinsNew = [
     {
         id: 'amalia',
         image: {
-            obverse: '../img/amalia_1.png',
-            reverse: '../img/amalia_2.png',
+            obverse: './img/amalia_1.png',
+            reverse: './img/amalia_2.png',
         },
         header: 'Jubilee coin, 2021',
         king: 'Princess Catharina-Amalia',
