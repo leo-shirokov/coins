@@ -2,8 +2,8 @@ export const coinsPopup = [
     {
         id: 'firsteuro',
         image: {
-            obverse: '../img/first_euro_1.png',
-            reverse: '../img/first_euro_2.png',
+            obverse: './img/first_euro_1.png',
+            reverse: './img/first_euro_2.png',
         },
         header: 'The very first euro coin, 1999',
         king: 'Queen Beatrix',
@@ -15,8 +15,8 @@ export const coinsPopup = [
     {
         id: 'dubbel',
         image: {
-            obverse: '../img/dubbelportret_1.png',
-            reverse: '../img/dubbelportret_2.png',
+            obverse: './img/dubbelportret_1.png',
+            reverse: './img/dubbelportret_2.png',
         },
         header: '2 euro, 2013',
         king: 'Queen Beatrix & Prince Willem-Alexander',
