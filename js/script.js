@@ -1,6 +1,7 @@
+import Coin from './Coin.js';
 import { coins } from './coins.js';
 import { coinsNew } from './coinsNew.js';
-import Coin from './Coin.js';
+import { coinDubbel } from './coinDubbel.js';
 
 function logoAnimationStart() {
     if (window.scrollY > 0) {
@@ -18,6 +19,10 @@ function main() {
     document
         .querySelector('section.content__info')
         .insertAdjacentHTML('afterend', coinsNew.map(Coin).join(''));
+
+    document
+        .querySelector('section.popup')
+        .insertAdjacentHTML('afterbegin', coinDubbel.map(Coin).join(''));
 
     document.querySelectorAll('.flip-wrapper').forEach((wrapper) => {
         wrapper.addEventListener('click', () => {

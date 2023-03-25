@@ -2,8 +2,8 @@ export const coins = [
     {
         id: 'willem1',
         image: {
-            obverse: './img/willem-1_1.png',
-            reverse: './img/willem-1_2.png',
+            obverse: '../img/willem-1_1.png',
+            reverse: '../img/willem-1_2.png',
         },
         header: 'First guilder, 1818',
         king: 'King William I',
@@ -22,7 +22,7 @@ export const coins = [
         id: 'willem2',
         image: {
             obverse: './img/willem-2_1.png',
-            reverse: './img/willem-2_2.png',
+            reverse: '../img/willem-2_2.png',
         },
         header: '5 guilders, 1843',
         king: 'King William II',
@@ -34,8 +34,8 @@ export const coins = [
     {
         id: 'willem3',
         image: {
-            obverse: './img/willem-3_1.png',
-            reverse: './img/willem-3_2.png',
+            obverse: '../img/willem-3_1.png',
+            reverse: '../img/willem-3_2.png',
         },
         header: '1/2 guilder, 1860',
         king: 'King William III',
@@ -47,8 +47,8 @@ export const coins = [
     {
         id: 'wilhelmina',
         image: {
-            obverse: './img/wilhelmina_1.png',
-            reverse: './img/wilhelmina_2.png',
+            obverse: '../img/wilhelmina_1.png',
+            reverse: '../img/wilhelmina_2.png',
         },
         header: '10 guilders, 1892',
         king: 'Queen Wilhelmina',
@@ -60,8 +60,8 @@ export const coins = [
     {
         id: 'juliana',
         image: {
-            obverse: './img/juliana_1.png',
-            reverse: './img/juliana_2.png',
+            obverse: '../img/juliana_1.png',
+            reverse: '../img/juliana_2.png',
         },
         header: 'Last silver guilder, 1967',
         king: 'Queen Juliana',
@@ -73,8 +73,8 @@ export const coins = [
     {
         id: 'beatrix',
         image: {
-            obverse: './img/beatrix_1.png',
-            reverse: './img/beatrix_2.png',
+            obverse: '../img/beatrix_1.png',
+            reverse: '../img/beatrix_2.png',
         },
         header: 'Last guilder, 2001',
         king: 'Queen Beatrix',
